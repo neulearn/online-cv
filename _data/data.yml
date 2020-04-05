@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Yeswanth Reddy
     tagline: Data Scientist
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: blog.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: yeshwanthreddy789@gmail.com
@@ -129,42 +129,46 @@ publications:
         #amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       #bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
+      - title: Character Recognition using Inertial Measurement Unit
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        #authors: Yeswanth Reddy
+        conference: 
+          - Generated a dataset containing accelerometer and gyroscopic time-series values in x, y and z directions with the use of IMU sensor.
+          - Developed a prototype to recognize the character in real-time using LSTM+GRU models and send the same data to the cloud simultaneously.        
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: "Page Segmentation using DeepLab"
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        #authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: 
+          - Developed a model which helps in semantic segmentation of textual and image region.
+          - he goal was to re-implement DeepLab, which was primarily developed for semantic image segmentation.
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      #- title: A syntax directed compiler for Algol 60
+      #  link: "#"
+      #  authors: Edgar T. Irons
+      #  conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: Scikit
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Tensorflow & Keras
+        level: 80%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Matlab
+        level: 70%
+
+      #- name: Ruby on Rails
+      #  level: 85%
+
+      #- name: Sketch & Photoshop
+      #  level: 60%
+
+#footer: >
+ #   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
