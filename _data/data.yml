@@ -15,7 +15,7 @@ sidebar:
     email: yeshwanthreddy789@gmail.com
     #phone: 012 345 6789
     website: neulearn.github.io #do not add http://
-    linkedin: alandoe
+    #linkedin: alandoe
     github: yeshwanth16
     gitlab:
     bitbucket:
@@ -97,37 +97,37 @@ experiences:
        
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Human Activity Recognition
+        Domain: Deep Learning
+        #link: "#hook"
+        tagline: "Developed a deep learning model using LSTM to predict the human movement."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Microsoft Malware Detection
+        Domain: Machine Learning
+        #link: "#"
+        tagline: "Implemented a Stacking classifier to detect the type of malware in .bytes and .asm files"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Quora Question Pair Similarity
+        Domain: Machine Learning
+        #link: "#"
+        tagline: "XGBoost algorithm was used to build a model to distinguish if the question pair is identical or different."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Automated Restaurant Ordering and Recommendation System
+        Domain: Machine Learning, IoT
+        #link: "#"
+        tagline: "Unsupervised algorithms such as Content-based, Apriori and Collaborative were used to recommend food to the users based on their purchase data."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      #- title: Delta
+      #  link: "#"
+       # tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Research Experience
+    #intro: |
+     # You can list your publications in this section. Lorem ipsum dolor sit
+        #amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      #bibendum fringilla a eu lectus.
     papers:
       - title: The Art of Computer Programming
         link: "#"
