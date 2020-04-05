@@ -44,15 +44,36 @@ sidebar:
       #- item: Cooking
        # link:
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+#career-profile:
+    #title: Career Profile
+    #summary: |
+
+publications:
+    title: Research Experience
+    #intro: |
+     # You can list your publications in this section. Lorem ipsum dolor sit
+        #amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      #bibendum fringilla a eu lectus.
+    papers:
+      - title: Character Recognition using Inertial Measurement Unit
+        link: "#"
+        #authors: Yeswanth Reddy
+        conference: 
+          - Generated a dataset containing accelerometer and gyroscopic time-series values in x, y and z directions with the use of IMU sensor.
+          - Developed a prototype to recognize the character in real-time using LSTM+GRU models and send the same data to the cloud simultaneously.        
+
+      - title: "Page Segmentation using DeepLab"
+        link: "#"
+        #authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: 
+          - Developed a model which helps in semantic segmentation of textual and image region.
+          - he goal was to re-implement DeepLab, which was primarily developed for semantic image segmentation.
+
+      #- title: A syntax directed compiler for Algol 60
+      #  link: "#"
+      #  authors: Edgar T. Irons
+      #  conference: "Comm. ACM 4 (1961), 51–55"
+      
 education:
     - degree: B. Tech in Electroics and Communication
       university: Vellore Institute of Technology
@@ -121,32 +142,6 @@ projects:
       #- title: Delta
       #  link: "#"
        # tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Research Experience
-    #intro: |
-     # You can list your publications in this section. Lorem ipsum dolor sit
-        #amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      #bibendum fringilla a eu lectus.
-    papers:
-      - title: Character Recognition using Inertial Measurement Unit
-        link: "#"
-        #authors: Yeswanth Reddy
-        conference: 
-          - Generated a dataset containing accelerometer and gyroscopic time-series values in x, y and z directions with the use of IMU sensor.
-          - Developed a prototype to recognize the character in real-time using LSTM+GRU models and send the same data to the cloud simultaneously.        
-
-      - title: "Page Segmentation using DeepLab"
-        link: "#"
-        #authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: 
-          - Developed a model which helps in semantic segmentation of textual and image region.
-          - he goal was to re-implement DeepLab, which was primarily developed for semantic image segmentation.
-
-      #- title: A syntax directed compiler for Algol 60
-      #  link: "#"
-      #  authors: Edgar T. Irons
-      #  conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
