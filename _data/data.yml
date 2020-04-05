@@ -152,7 +152,10 @@ skills:
 
       - name: Scikit
         level: 85%
-
+        
+      - name: IoT
+        level: 85%
+        
       - name: Tensorflow & Keras
         level: 80%
 
