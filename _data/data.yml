@@ -73,8 +73,8 @@ publications:
       #  link: "#"
       #  authors: Edgar T. Irons
         conference:
-         - Created a method for an effortless and secure way to connect smart devices to the network by brining the device into proximity of the router.
-         - Pre-determined algorithm generates a password based on PSK and network’s name, which is unique for every device.
+          - Created a method for an effortless and secure way to connect smart devices to the network by brining the device into proximity of the router.
+          - Pre-determined algorithm generates a password based on PSK and network’s name, which is unique for every device.
 
       
 education:
